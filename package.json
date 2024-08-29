@@ -1,0 +1,12 @@
+{
+    "scripts": {
+        "test": "jest --verbose --coverage"
+    },
+    "dependencies": {
+        "inquirer": "^8.2.4",
+        "svg": "^0.1.0"
+    },
+    "devDependencies": {
+        "jest": "^28.1.3"
+    }
+}
