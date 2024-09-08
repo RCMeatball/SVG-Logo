@@ -44,14 +44,7 @@ function init() {
         shape = new Square(answer.ShapeColor, answer.Shape);
       }
   
-      var svgLogo = `<svg version="1.1"
-         width="300" height="200"
-         xmlns="http://www.w3.org/2000/svg">
-  
-        ${shape.render()}
-  
-        <text x="150" y="125" font-size="45" text-anchor="middle" fill="${answer.TextColor}">${answer.Name}</text>
-        </svg>`;
+      var svgLogo = ``;
   
       fs.writeFile(`logo.svg`, svgLogo, () => {
         console.log("Logo created");
